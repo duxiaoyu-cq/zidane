@@ -2,7 +2,7 @@ package com.dxy.zidane.web.controllers;
 
 
 import com.dxy.zidane.common.utils.DateUtil;
-import com.dxy.zidane.service.JobService;
+import com.dxy.zidane.artemis.service.JobService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

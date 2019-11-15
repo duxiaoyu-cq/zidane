@@ -1,4 +1,4 @@
-package com.dxy.zidane.service;
+package com.dxy.zidane.artemis.service;
 
 import com.dxy.zidane.dao.mapper.JobMapper;
 import com.dxy.zidane.dao.pojo.Job;

@@ -34,7 +34,7 @@ public class FreemarkerConfig {
 
         }
 
-        public static FreemarkerStaticModels getInstance() {
+        static FreemarkerStaticModels getInstance() {
             if (FREEMARKER_STATIC_MODELS == null) {
                 FREEMARKER_STATIC_MODELS = new FreemarkerStaticModels();
             }
