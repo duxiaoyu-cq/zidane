@@ -77,4 +77,8 @@ public class PhotoScanner extends AbstractFileScanner<Photo> {
         return null;
     }
 
+    @Override
+    public void reporter(File file) {
+        super.reporter(file);
+    }
 }
